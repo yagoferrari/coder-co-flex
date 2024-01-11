@@ -1,0 +1,19 @@
+@import "../sccs/complementos/variables.scss";
+body:before {
+
+    content:"" ;
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: linear-gradient(45deg, rgb(0, 195, 255),rgb(234, 0, 255) 30% ,rgb(0, 140, 255));
+    opacity: 0.3;
+    z-index: -1;
+  }
+.parrayago{
+    text-align:$lugar;
+    font-size:$letrap;
+}
